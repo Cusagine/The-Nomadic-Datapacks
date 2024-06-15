@@ -1,0 +1,145 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_axe"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_sword"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:writable_book"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 12,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:rabbit_hide"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 27.0,
+                  "min": 24.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:iron_ingot"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "nomadic:bonus_chest/food"
+          }
+        ],
+        "rolls": 3.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "nomadic:bonus_chest/log"
+          }
+        ],
+        "rolls": 6.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "nomadic:bonus_chest/plank"
+          }
+        ],
+        "rolls": 6.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 16.0,
+                  "min": 8.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:stick"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "nomadic:bonus_chest/stone"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "nomadic:bonus_chest/danger_supply"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "minecraft:chests/spawn_bonus_chest"
+  }

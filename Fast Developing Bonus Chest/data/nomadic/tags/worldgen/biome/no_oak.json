@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values":[
+        "#nomadic:no_trees",
+        "grove",
+        "old_growth_pine_taiga",
+        "old_growth_spruce_taiga",
+        "snowy_plains",
+        "snowy_taiga",
+        "taiga",
+        "mangrove_swamp",
+        "bamboo_jungle",
+        "jungle",
+        "sparse_jungle",
+        "dark_forest",
+        "cherry_grove",
+        "birch_forest",
+        "old_growth_birch_forest",
+        "savanna",
+        "savanna_plateau",
+        "windswept_savanna"
+    ]
+}

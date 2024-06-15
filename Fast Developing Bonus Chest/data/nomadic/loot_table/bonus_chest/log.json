@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:generic",
+    "pools": [{
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6.0,
+                  "min": 5.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:oak_log",
+            "weight": 3
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "nomadic:bonus_chest/log"
+}

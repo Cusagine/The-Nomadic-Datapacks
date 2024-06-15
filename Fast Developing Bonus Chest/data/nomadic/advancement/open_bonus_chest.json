@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "open_chest": {
+        "trigger": "minecraft:player_generates_container_loot",
+        "conditions": {
+          "loot_table": "minecraft:chests/spawn_bonus_chest"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "open_chest"
+      ]
+    ],
+    "rewards": {
+        "experience": 65,
+        "function": "nomadic:fdbchest/open_bonus_chest"
+  }
+}

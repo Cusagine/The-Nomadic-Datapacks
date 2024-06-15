@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:generic",
+    "pools": [{
+        "bonus_rolls": 0.0,
+        "entries": [
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "nomadic:bonus_chest/danger_supply"
+}

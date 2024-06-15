@@ -1,0 +1,1 @@
+advancement grant @s until minecraft:story/smelt_iron
