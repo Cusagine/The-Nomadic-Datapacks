@@ -1,0 +1,1 @@
+tellraw @a {"translate":"nomadic.shift_spawnpoint.run","fallback":"The Shifting World Spawn Point is enabled. At the beginning of the next day, the world spawn point will be shifted to the position of the player farthest from the origin in appropriate circumstances.","color":"yellow"}

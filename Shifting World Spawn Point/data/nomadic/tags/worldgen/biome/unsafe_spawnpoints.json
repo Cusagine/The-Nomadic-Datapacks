@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values":[
+        "#minecraft:is_ocean",
+        "#minecraft:is_deep_ocean",
+        "#minecraft:is_nether",
+        "#minecraft:is_end",
+        "dark_forest",
+        "deep_dark",
+        "dripstone_caves",
+        "frozen_peaks",
+        "jagged_peaks",
+        "lush_caves",
+        "snowy_slopes",
+        "stony_peaks",
+        "the_void"
+    ]
+}
