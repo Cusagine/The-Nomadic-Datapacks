@@ -16,8 +16,54 @@
                 "function": "minecraft:set_count"
               }
             ],
+            "conditions": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "biomes": "#nomadic:no_oak"
+                  }
+                }
+              }
+            ],
             "name": "minecraft:oak_log",
-            "weight": 3
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6.0,
+                  "min": 5.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:present_variants"
+                }
+              }
+            ],
+            "value": "nomadic:variant_logs",
+            "weight": 1
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nomadic:no_trees"
+              }
+            }
           }
         ],
         "rolls": 1.0

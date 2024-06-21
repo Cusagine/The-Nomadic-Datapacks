@@ -1,0 +1,97 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_log",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:present_spruce"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:birch_log",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:present_birch"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:jungle_log",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:present_jungle"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:acacia_log",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:present_acacia"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:dark_oak_log",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:present_dark_oak"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:mangrove_log",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:present_mangrove"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:cherry_log",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:present_cherry"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
