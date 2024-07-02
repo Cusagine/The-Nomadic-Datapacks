@@ -1,8 +1,18 @@
 {
     "criteria": {
       "in_bed": {
-        "trigger": "minecraft:slept_in_bed",
+        "trigger": "minecraft:default_block_use",
         "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "#minecraft:beds"
+                }
+              }
+            }
+          ],
           "player": {
             "location": {
               "dimension": "minecraft:overworld"
