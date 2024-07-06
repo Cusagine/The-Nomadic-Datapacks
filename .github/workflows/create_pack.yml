@@ -3,23 +3,24 @@
 name: Create Pack
 on:
   push:
-
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v4
-
-      - name: Create pack
-        run: |
-          zip 'Shifting World Spawn Point'
-          zip 'Fast Developing Bonus Chest'
-          zip 'The Nomadic Resourcepack'
-
-      - name: Upload injected
+      - name: Upload pack 'Shifting World Spawn Point'
         uses: actions/upload-artifact@v4
         with:
-          name: pack
-          path: |
-            *.zip
+          name: Shifting World Spawn Point
+          path: Shifting World Spawn Point
+      - name: Upload pack 'Fast Developing Bonus Chest'
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fast Developing Bonus Chest
+          path: Fast Developing Bonus Chest
+      - name: Upload pack 'The Nomadic Resourcepack'
+        uses: actions/upload-artifact@v4
+        with:
+          name: The Nomadic Resourcepack
+          path: The Nomadic Resourcepack
