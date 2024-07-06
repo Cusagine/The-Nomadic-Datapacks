@@ -1,0 +1,25 @@
+# by Nickid2018
+
+name: Create Pack
+on:
+  push:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+
+      - name: Create pack
+        run: |
+          zip 'Shifting World Spawn Point'
+          zip 'Fast Developing Bonus Chest'
+          zip 'The Nomadic Resourcepack'
+
+      - name: Upload injected
+        uses: actions/upload-artifact@v4
+        with:
+          name: pack
+          path: |
+            *.zip
