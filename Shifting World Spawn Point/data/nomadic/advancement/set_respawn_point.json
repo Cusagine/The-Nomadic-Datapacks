@@ -1,6 +1,6 @@
 {
     "criteria": {
-      "in_bed": {
+      "set_point": {
         "trigger": "minecraft:default_block_use",
         "conditions": {
           "location": [
@@ -8,27 +8,7 @@
               "condition": "minecraft:location_check",
               "predicate": {
                 "block": {
-                  "blocks": "#minecraft:beds"
-                }
-              }
-            }
-          ],
-          "player": {
-            "location": {
-              "dimension": "minecraft:overworld"
-            }
-          }
-        }
-      },
-      "use_anchor": {
-        "trigger": "minecraft:default_block_use",
-        "conditions": {
-          "location": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "blocks": "minecraft:respawn_anchor"
+                  "blocks": "#nomadic:spawn_point"
                 }
               }
             }
@@ -43,8 +23,7 @@
     },
     "requirements": [
       [
-        "in_bed",
-        "use_anchor"
+        "set_point"
       ]
     ],
     "rewards": {

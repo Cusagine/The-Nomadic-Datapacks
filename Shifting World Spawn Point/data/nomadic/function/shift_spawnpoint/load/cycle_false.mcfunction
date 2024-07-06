@@ -1,0 +1,1 @@
+schedule function nomadic:shift_spawnpoint/run 1d replace

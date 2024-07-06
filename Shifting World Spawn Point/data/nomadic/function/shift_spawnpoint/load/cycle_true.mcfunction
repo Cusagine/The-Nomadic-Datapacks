@@ -1,0 +1,1 @@
+schedule clear nomadic:shift_spawnpoint/run

@@ -4,6 +4,7 @@
     "nomadic.description.shift_spawnpoint": "Shifting World Spawn Point",
     "nomadic.shift_spawnpoint.run": "The Shifting World Spawn Point is enabled. At the beginning of the next day, the world spawn point will be shifted to the position of the player farthest from the origin in appropriate circumstances.",
     "nomadic.shift_spawnpoint.noplayer": "The world spawn point didn't change. No player in the overworld is found.",
+    "nomadic.shift_spawnpoint.below_sea_level": "The world spawn point didn't change. The altitude is below sea level.",
     "nomadic.shift_spawnpoint.unsafe_spawnpoint": "The world spawn point didn't change. The biome located is unsafe.",
     "nomadic.shift_spawnpoint.unsafe_spawnpoint.bad_respawn_point": "The world spawn point didn't change. The biome located and the action done are unsafe =)",
     "nomadic.shift_spawnpoint.success": "The world spawn point changed.",

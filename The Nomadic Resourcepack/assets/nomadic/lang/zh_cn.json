@@ -4,6 +4,7 @@
     "nomadic.description.shift_spawnpoint": "世界出生点转移",
     "nomadic.shift_spawnpoint.run": "世界出生点转移数据包已启用。第二天开始时，世界出生点将在合适的情况下转移至离原点最远的玩家坐标。",
     "nomadic.shift_spawnpoint.noplayer": "世界出生点未改变。主世界没有玩家。",
+    "nomadic.shift_spawnpoint.below_sea_level": "世界出生点未改变。当前高度低于海平面。",
     "nomadic.shift_spawnpoint.unsafe_spawnpoint": "世界出生点未改变。所在的生物群系不安全。",
     "nomadic.shift_spawnpoint.unsafe_spawnpoint.bad_respawn_point": "世界出生点未改变。所在的生物群系和所做的动作不安全 =)",
     "nomadic.shift_spawnpoint.success": "世界出生点已改变。",

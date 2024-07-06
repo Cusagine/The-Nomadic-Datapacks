@@ -1,0 +1,1 @@
+execute if data storage brxt:config nomadic{DayCycleRule:1b} if predicate {"condition":"time_check","value":10,"period":24000} unless predicate {"condition":"time_check","value":10} run function nomadic:shift_spawnpoint/run/check
