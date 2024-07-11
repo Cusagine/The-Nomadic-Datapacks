@@ -1,0 +1,27 @@
+{
+    "replace": false,
+    "values":[
+        "#minecraft:is_ocean",
+        "#minecraft:is_deep_ocean",
+        "#minecraft:is_river",
+        "#minecraft:is_end",
+        "badlands",
+        "basalt_deltas",
+        "deep_dark",
+        "desert",
+        "dripstone_caves",
+        "eroded_badlands",
+        "ice_spikes",
+        "lush_caves",
+        "mushroom_fields",
+        "nether_wastes",
+        "stony_shore",
+        "soul_sand_valley",
+        "the_void",
+        "windswept_gravelly_hills",
+        "frozen_peaks",
+        "jagged_peaks",
+        "snowy_slopes",
+        "stony_peaks"
+    ]
+}

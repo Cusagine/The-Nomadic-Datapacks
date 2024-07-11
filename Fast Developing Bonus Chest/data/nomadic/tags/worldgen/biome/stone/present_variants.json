@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values":[
+        "#nomadic:stone/present_blackstone",
+        "#nomadic:stone/present_deepslate"
+    ]
+}

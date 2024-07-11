@@ -12,7 +12,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#nomadic:present_spruce"
+                  "biomes": "#nomadic:wood/present_spruce"
                 }
               }
             ]
@@ -25,7 +25,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#nomadic:present_birch"
+                  "biomes": "#nomadic:wood/present_birch"
                 }
               }
             ]
@@ -37,7 +37,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#nomadic:present_jungle"
+                  "biomes": "#nomadic:wood/present_jungle"
                 }
               }
             ]
@@ -49,7 +49,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#nomadic:present_acacia"
+                  "biomes": "#nomadic:wood/present_acacia"
                 }
               }
             ]
@@ -61,7 +61,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#nomadic:present_dark_oak"
+                  "biomes": "#nomadic:wood/present_dark_oak"
                 }
               }
             ]
@@ -73,7 +73,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#nomadic:present_mangrove"
+                  "biomes": "#nomadic:wood/present_mangrove"
                 }
               }
             ]
@@ -85,7 +85,43 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#nomadic:present_cherry"
+                  "biomes": "#nomadic:wood/present_cherry"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:crimson_planks",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:wood/present_crimson"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:warped_planks",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:wood/present_warped"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:bamboo_planks",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:wood/present_bamboo"
                 }
               }
             ]

@@ -22,7 +22,7 @@
                 "term": {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biomes": "#nomadic:no_oak"
+                    "biomes": "#nomadic:wood/no_oak"
                   }
                 }
               }
@@ -47,7 +47,7 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "biomes": "#nomadic:present_variants"
+                  "biomes": "#nomadic:wood/present_variants"
                 }
               }
             ],
@@ -61,7 +61,7 @@
             "term": {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": "#nomadic:no_trees"
+                "biomes": "#nomadic:wood/no_trees"
               }
             }
           }

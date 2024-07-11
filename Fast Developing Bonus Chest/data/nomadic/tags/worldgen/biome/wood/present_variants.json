@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values":[
+        "#nomadic:wood/present_acacia",
+        "#nomadic:wood/present_birch",
+        "#nomadic:wood/present_cherry",
+        "#nomadic:wood/present_dark_oak",
+        "#nomadic:wood/present_jungle",
+        "#nomadic:wood/present_mangrove",
+        "#nomadic:wood/present_spruce",
+        "#nomadic:wood/present_dark_oak",
+        "#nomadic:wood/present_bamboo",
+        "#nomadic:wood/present_crimson",
+        "#nomadic:wood/present_warped"
+    ]
+}

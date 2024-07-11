@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values":[
+        "#nomadic:danger/cave",
+        "#nomadic:danger/mountain",
+        "#nomadic:danger/waste",
+        "#nomadic:danger/ocean",
+        "#nomadic:danger/nether",
+        "#nomadic:danger/end"
+    ]
+}

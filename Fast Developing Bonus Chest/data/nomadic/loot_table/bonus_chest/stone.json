@@ -1,27 +1,73 @@
 {
-    "type": "minecraft:generic",
-    "pools": [
-      {
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 47.0,
-                  "min": 36.0
-                },
-                "function": "minecraft:set_count"
+  "type": "minecraft:generic",
+  "pools": [{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:stone/no_cobble"
+                }
               }
-            ],
-            "name": "minecraft:cobblestone"
+            }
+          ],
+          "name": "minecraft:cobblestone",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#nomadic:stone/present_variants"
+              }
+            }
+          ],
+          "value": "nomadic:variant_stones",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biomes": "#nomadic:stone/no_stones"
+            }
           }
-        ],
-        "rolls": 1.0
-      }
-    ],
-    "random_sequence": "nomadic:bonus_chest/stone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "nomadic:bonus_chest/stone"
 }

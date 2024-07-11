@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values":[
+        "badlands",
+        "desert",
+        "eroded_badlands",
+        "ice_spikes",
+        "mushroom_fields",
+        "the_void"
+    ]
+}
