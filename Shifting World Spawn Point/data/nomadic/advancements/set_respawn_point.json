@@ -1,0 +1,46 @@
+{
+    "criteria": {
+      "set_point": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "tag": "nomadic:spawn_point"
+            }
+          },
+          "player": {
+            "location": {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        }
+      },
+      "set_point_charge": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "tag": "nomadic:spawn_point_need_charge",
+              "state": {
+              "charges": "4"
+            }
+            }
+          },
+          "player": {
+            "location": {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "set_point_charge",
+        "set_point"
+      ]
+    ],
+    "rewards": {
+        "function": "nomadic:shift_spawnpoint/set_respawn_point"
+  }
+}

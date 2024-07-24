@@ -1,0 +1,1 @@
+execute if data storage brxt:config nomadic{DayCycleRule:1b} if predicate nomadic:shift_spawnpoint/sunrise_check unless predicate nomadic:shift_spawnpoint/first_day_check run function nomadic:shift_spawnpoint/run/check

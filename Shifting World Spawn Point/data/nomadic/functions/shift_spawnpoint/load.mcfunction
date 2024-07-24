@@ -1,0 +1,1 @@
+execute unless data storage brxt:config nomadic.shift_spawnpoint_routine run function nomadic:shift_spawnpoint/load/datafit
