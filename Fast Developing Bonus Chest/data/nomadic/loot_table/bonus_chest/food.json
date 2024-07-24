@@ -11,46 +11,14 @@
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 2.0,
-                  "min": 1.0
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "minecraft:apple",
-            "weight": 5
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 2.0,
-                  "min": 1.0
+                  "max": 6.0,
+                  "min": 4.0
                 },
                 "function": "minecraft:set_count"
               }
             ],
             "name": "minecraft:bread",
-            "weight": 3
-          },
-          {
-            "type": "minecraft:item",
-            "functions": [
-              {
-                "add": false,
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 2.0,
-                  "min": 1.0
-                },
-                "function": "minecraft:set_count"
-              }
-            ],
-            "name": "minecraft:salmon",
-            "weight": 3
+            "weight": 1
           }
         ],
         "rolls": 1.0

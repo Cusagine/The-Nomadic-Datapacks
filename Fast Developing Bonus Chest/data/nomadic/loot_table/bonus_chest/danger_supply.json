@@ -3,6 +3,109 @@
     "pools": [{
         "bonus_rolls": 0.0,
         "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:danger/cave"
+                }
+              }
+            ],
+            "value": "nomadic:danger_supply/cave",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },{
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:danger/end"
+                }
+              }
+            ],
+            "value": "nomadic:danger_supply/end",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },{
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:danger/mountain"
+                }
+              }
+            ],
+            "value": "nomadic:danger_supply/mountain",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },{
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:danger/nether"
+                }
+              }
+            ],
+            "value": "nomadic:danger_supply/nether",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },{
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:danger/ocean"
+                }
+              }
+            ],
+            "value": "nomadic:danger_supply/ocean",
+            "weight": 1
+          }
+        ],
+        "rolls": 1.0
+      },{
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:danger/waste"
+                }
+              }
+            ],
+            "value": "nomadic:danger_supply/waste",
+            "weight": 1
+          }
         ],
         "rolls": 1.0
       }
