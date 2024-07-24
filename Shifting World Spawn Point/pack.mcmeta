@@ -3,5 +3,13 @@
         "description": {"translate":"nomadic.description.shift_spawnpoint","fallback":"Shifting World Spawn Point"},
         "pack_format": 12,
         "supported_formats": [12,33]
-    }
+    },
+    "overlays": {
+    "entries": [
+      {
+        "formats": [15,33],
+        "directory": "advancement-fix"
+      }
+    ]
+  }
 }
