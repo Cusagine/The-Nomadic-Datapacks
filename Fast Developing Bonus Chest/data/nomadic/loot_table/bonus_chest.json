@@ -26,16 +26,6 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:writable_book"
-          }
-        ],
-        "rolls": 1.0
-      },
-      {
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:item",
             "functions": [
               {
                 "add": false,
@@ -58,8 +48,8 @@
                 "add": false,
                 "count": {
                   "type": "minecraft:uniform",
-                  "max": 27.0,
-                  "min": 24.0
+                  "max": 37.0,
+                  "min": 33.0
                 },
                 "function": "minecraft:set_count"
               }
