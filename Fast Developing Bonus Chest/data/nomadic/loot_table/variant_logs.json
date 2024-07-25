@@ -5,8 +5,9 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "name": "minecraft:spruce_log",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/spruce",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -18,8 +19,9 @@
             ]
           },
           {
-            "type": "minecraft:item",
-            "name": "minecraft:birch_log",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/birch",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -30,8 +32,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:jungle_log",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/jungle",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -42,8 +45,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:acacia_log",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/acacia",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -54,8 +58,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:dark_oak_log",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/dark_oak",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -66,8 +71,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:mangrove_log",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/mangrove",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -78,8 +84,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:cherry_log",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/cherry",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -90,8 +97,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:crimson_stem",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/crimson",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -102,8 +110,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:warped_stem",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/warped",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -114,8 +123,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:bamboo_block",
+            "type": "minecraft:tag",
+            "name": "nomadic:log/bamboo",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -130,8 +140,9 @@
       },{
         "rolls": 1,
         "entries": [{
-            "type": "minecraft:item",
-            "name": "minecraft:bamboo_block",
+          "type": "minecraft:tag",
+          "name": "nomadic:log/bamboo",
+          "expand": false,
             "weight": 1,
             "conditions": [
               {

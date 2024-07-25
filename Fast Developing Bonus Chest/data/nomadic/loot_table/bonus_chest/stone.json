@@ -4,7 +4,9 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:tag",
+          "name": "nomadic:stone/cobblestone",
+          "expand": false,
           "functions": [
             {
               "add": false,
@@ -27,7 +29,6 @@
               }
             }
           ],
-          "name": "minecraft:cobblestone",
           "weight": 2
         },
         {

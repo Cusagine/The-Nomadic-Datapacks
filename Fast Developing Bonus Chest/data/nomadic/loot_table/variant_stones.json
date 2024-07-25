@@ -5,8 +5,9 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "name": "minecraft:blackstone",
+            "type": "minecraft:tag",
+            "name": "nomadic:stone/blackstone",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -18,8 +19,9 @@
             ]
           },
           {
-            "type": "minecraft:item",
-            "name": "minecraft:cobbled_deepslate",
+            "type": "minecraft:tag",
+            "name": "nomadic:stone/cobbled_deepslate",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {

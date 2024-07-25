@@ -5,8 +5,9 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "name": "minecraft:spruce_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/spruce",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -18,8 +19,9 @@
             ]
           },
           {
-            "type": "minecraft:item",
-            "name": "minecraft:birch_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/birch",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -30,8 +32,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:jungle_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/jungle",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -42,8 +45,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:acacia_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/acacia",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -54,8 +58,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:dark_oak_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/dark_oak",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -66,8 +71,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:mangrove_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/mangrove",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -78,8 +84,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:cherry_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/cherry",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -90,8 +97,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:crimson_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/crimson",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -102,8 +110,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:warped_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/warped",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
@@ -114,8 +123,9 @@
               }
             ]
           },{
-            "type": "minecraft:item",
-            "name": "minecraft:bamboo_planks",
+            "type": "minecraft:tag",
+            "name": "nomadic:plank/bamboo",
+            "expand": false,
             "weight": 1,
             "conditions": [
               {
