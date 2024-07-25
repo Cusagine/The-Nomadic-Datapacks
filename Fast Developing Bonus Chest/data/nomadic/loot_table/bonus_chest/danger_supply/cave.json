@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 15.0,
+                  "min": 12.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:iron_ingot"
+          }
+        ],
+        "rolls": 1.0
+      },{
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crafting_table"
+          }
+        ]
+      },{
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 12.0,
+                  "min": 8.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:stick"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }
+  

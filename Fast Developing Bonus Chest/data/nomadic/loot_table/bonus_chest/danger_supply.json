@@ -13,7 +13,7 @@
                 }
               }
             ],
-            "value": "nomadic:danger_supply/cave",
+            "value": "nomadic:bonus_chest/danger_supply/cave",
             "weight": 1
           }
         ],
@@ -31,7 +31,7 @@
                 }
               }
             ],
-            "value": "nomadic:danger_supply/end",
+            "value": "nomadic:bonus_chest/danger_supply/end",
             "weight": 1
           }
         ],
@@ -49,7 +49,7 @@
                 }
               }
             ],
-            "value": "nomadic:danger_supply/mountain",
+            "value": "nomadic:bonus_chest/danger_supply/mountain",
             "weight": 1
           }
         ],
@@ -67,7 +67,7 @@
                 }
               }
             ],
-            "value": "nomadic:danger_supply/nether",
+            "value": "nomadic:bonus_chest/danger_supply/nether",
             "weight": 1
           }
         ],
@@ -85,7 +85,7 @@
                 }
               }
             ],
-            "value": "nomadic:danger_supply/ocean",
+            "value": "nomadic:bonus_chest/danger_supply/ocean",
             "weight": 1
           }
         ],
@@ -103,11 +103,32 @@
                 }
               }
             ],
-            "value": "nomadic:danger_supply/waste",
+            "value": "nomadic:bonus_chest/danger_supply/waste",
             "weight": 1
           }
         ],
         "rolls": 1.0
+      },{
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6.0,
+                  "min": 4.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bread",
+            "weight": 1
+          }
+        ],
+        "rolls": 2.0
       }
     ],
     "random_sequence": "nomadic:bonus_chest/danger_supply"
