@@ -2,6 +2,6 @@
     "pack": {
         "description": {"translate":"nomadic.description.shift_spawnpoint","fallback":"Shifting World Spawn Point"},
         "pack_format": 48,
-        "supported_formats": [45,48]
+        "supported_formats": [45,999]
     }
 }
