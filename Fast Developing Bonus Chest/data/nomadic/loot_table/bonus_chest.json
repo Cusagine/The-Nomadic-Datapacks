@@ -29,11 +29,11 @@
             "functions": [
               {
                 "add": false,
-                "count": 12,
+                "count": 2,
                 "function": "minecraft:set_count"
               }
             ],
-            "name": "minecraft:rabbit_hide"
+            "name": "minecraft:leather"
           }
         ],
         "rolls": 1.0
