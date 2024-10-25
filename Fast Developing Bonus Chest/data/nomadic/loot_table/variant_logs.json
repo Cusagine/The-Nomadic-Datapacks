@@ -72,6 +72,19 @@
             ]
           },{
             "type": "minecraft:tag",
+            "name": "nomadic:log/pale_oak",
+            "expand": false,
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "#nomadic:wood/present_pale_oak"
+                }
+              }
+            ]
+          },{
+            "type": "minecraft:tag",
             "name": "nomadic:log/mangrove",
             "expand": false,
             "weight": 1,

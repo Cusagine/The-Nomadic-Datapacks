@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values":[
+        {"id":"minecraft:pale_oak_planks","required":false}
+    ]
+}

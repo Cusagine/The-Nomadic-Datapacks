@@ -14,6 +14,7 @@
         "jungle",
         "sparse_jungle",
         "dark_forest",
+        {"id":"pale_garden","required":false},
         "cherry_grove",
         "birch_forest",
         "old_growth_birch_forest",

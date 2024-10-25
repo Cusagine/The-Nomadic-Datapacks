@@ -5,6 +5,7 @@
         "#minecraft:is_deep_ocean",
         "basalt_deltas",
         "dark_forest",
+        {"id":"pale_garden","required":false},
         "jungle",
         "bamboo_jungle",
         "deep_dark",
